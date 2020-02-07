@@ -1,0 +1,65 @@
+# 1 https://api-pub.bitfinex.com/v2/platform/status
+#
+#
+#
+# 2 https://api-pub.bitfinex.com/v2/tickers?symbols=tBTCUSD,tLTCUSD,fUSD
+# https://api-pub.bitfinex.com/v2/tickers?symbols=tBTCUSD
+# https://api-pub.bitfinex.com/v2/tickers?symbols=ALL
+#
+# 3 //trading
+# curl https://api-pub.bitfinex.com/v2/ticker/tBTCUSD
+# //funding
+# curl https://api-pub.bitfinex.com/v2/ticker/fUSD
+#
+#
+# 4 //trading
+# curl https://api-pub.bitfinex.com/v2/trades/tBTCUSD/hist
+# //funding
+# curl https://api-pub.bitfinex.com/v2/trades/fUSD/hist
+#
+#
+# 5 curl https://api-pub.bitfinex.com/v2/book/tBTCUSD/P0
+#
+#
+# 6 curl https://api-pub.bitfinex.com/v2/stats1/pos.size:1m:tBTCUSD:long/last
+# curl https://api-pub.bitfinex.com/v2/stats1/pos.size:1m:tBTCUSD:long/hist
+#
+#
+# 7 curl https://api-pub.bitfinex.com/v2/candles/trade:1m:tBTCUSD/last
+# curl https://api-pub.bitfinex.com/v2/candles/trade:1m:tBTCUSD/hist
+#
+#
+#
+# 8 https://api-pub.bitfinex.com/v2/conf/pub:Action:Object:Detail
+#
+#
+#
+# 9 https://api-pub.bitfinex.com/v2/status/type
+#
+#
+# 10 https://api-pub.bitfinex.com/v2/liquidations/hist
+#
+#
+#
+#
+# 11 -Unrealized profit (period delta)
+#
+# curl https://api-pub.bitfinex.com/v2/rankings/plu_diff:1w:tGLOBAL:USD/hist
+#
+# -Unrealized profit (inception)
+#
+# curl https://api-pub.bitfinex.com/v2/rankings/plu:1w:tGLOBAL:USD/hist
+# curl https://api-pub.bitfinex.com/v2/rankings/plu:3h:tBTCUSD/hist
+#
+# -Volume
+#
+# curl https://api-pub.bitfinex.com/v2/rankings/vol:3h:tBTCUSD/hist
+# curl https://api-pub.bitfinex.com/v2/rankings/vol:3h:tGLOBAL:USD/hist
+#
+# -Realized Profit
+#
+# curl https://api-pub.bitfinex.com/v2/rankings/plr:1M:tGLOBAL:USD/hist
+#
+#
+#
+# https://api.bitfinex.com/v2/calc/trade/avg

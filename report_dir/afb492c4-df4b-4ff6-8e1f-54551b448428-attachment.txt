@@ -1,0 +1,3 @@
+2020-02-07 18:48:28,890 module 'connectionpool' function '_new_conn' DEBUG -> Starting new HTTPS connection (1): api-pub.bitfinex.com:443
+2020-02-07 18:48:29,157 module 'connectionpool' function '_make_request' DEBUG -> https://api-pub.bitfinex.com:443 "GET /v2/platform/status HTTP/1.1" 200 3
+2020-02-07 18:48:29,163 module 'test_endpoints' function 'test_response_body_field_types_endpoint1' DEBUG -> Getting response body from Bitfinex API

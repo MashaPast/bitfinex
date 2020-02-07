@@ -3,3 +3,4 @@ config.ini
 venv/
 ./pytest_cache/
 __pycache__/
+old_examples/
