@@ -1,0 +1,4 @@
+2020-02-10 23:59:41,775 module 'test_platform_status_response' function 'test_platform_status' DEBUG -> Request completed in 1.09999999997612e-05ms
+2020-02-10 23:59:41,776 module 'helpers_functions' function 'get_response_headers' DEBUG -> Getting response headers from Bitfinex API
+2020-02-10 23:59:41,778 module 'helpers_functions' function 'get_json_from_asset' DEBUG -> Getting content type from asset
+2020-02-10 23:59:41,779 module 'helpers_functions' function 'get_response_body' DEBUG -> Getting response body from Bitfinex API

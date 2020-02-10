@@ -1,0 +1,4 @@
+[35mDEBUG   [0m root:test_platform_status_response.py:9 Request completed in 1.09999999997612e-05ms
+[35mDEBUG   [0m root:helpers_functions.py:21 Getting response headers from Bitfinex API
+[35mDEBUG   [0m root:helpers_functions.py:28 Getting content type from asset
+[35mDEBUG   [0m root:helpers_functions.py:34 Getting response body from Bitfinex API

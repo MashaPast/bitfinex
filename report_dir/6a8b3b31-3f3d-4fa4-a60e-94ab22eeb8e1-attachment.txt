@@ -1,3 +1,0 @@
-2020-02-07 18:48:29,178 module 'connectionpool' function '_new_conn' DEBUG -> Starting new HTTPS connection (1): api-pub.bitfinex.com:443
-2020-02-07 18:48:29,651 module 'connectionpool' function '_make_request' DEBUG -> https://api-pub.bitfinex.com:443 "GET /v2/tickers?symbols=tBTCUSD,tLTCUSD,fUSD HTTP/1.1" 200 None
-2020-02-07 18:48:29,656 module 'test_endpoints' function 'test_response_body_field_types_endpoint2' DEBUG -> Getting response body from Bitfinex API

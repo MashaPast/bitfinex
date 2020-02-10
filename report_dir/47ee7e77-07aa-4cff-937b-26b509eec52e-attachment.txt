@@ -1,7 +1,0 @@
-2020-02-07 18:48:28,558 module 'test_endpoints' function 'test_response_code_time_content_type' DEBUG -> Getting response from 5 endpoints to check response code from Bitfinex API is ok
-2020-02-07 18:48:28,562 module 'connectionpool' function '_new_conn' DEBUG -> Starting new HTTPS connection (1): api-pub.bitfinex.com:443
-2020-02-07 18:48:28,868 module 'connectionpool' function '_make_request' DEBUG -> https://api-pub.bitfinex.com:443 "GET /v2/book/tBTCUSD/P0 HTTP/1.1" 200 None
-2020-02-07 18:48:28,873 module 'test_endpoints' function 'test_response_code_time_content_type' DEBUG -> Request completed in 0.03677700000000006ms
-2020-02-07 18:48:28,874 module 'test_endpoints' function 'test_response_code_time_content_type' DEBUG -> Checking asserts for 5 endpoints if response code is ok
-2020-02-07 18:48:28,875 module 'test_endpoints' function 'test_response_code_time_content_type' DEBUG -> Getting response headers from Bitfinex API
-2020-02-07 18:48:28,875 module 'test_endpoints' function 'test_response_code_time_content_type' DEBUG -> Checking asserts for 5 endpoints if content-type is json
