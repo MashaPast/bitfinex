@@ -1,7 +1,0 @@
-[35mDEBUG   [0m root:helpers_functions.py:14 Getting full url for sending request to Bitfinex API
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): api-pub.bitfinex.com:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 https://api-pub.bitfinex.com:443 "GET /v2/ticker/fUSD HTTP/1.1" 200 None
-[35mDEBUG   [0m root:test_ticker.py:14 Request completed in 5.000000000254801e-06ms
-[35mDEBUG   [0m root:helpers_functions.py:21 Getting response headers from Bitfinex API
-[35mDEBUG   [0m root:helpers_functions.py:28 Getting content type from asset
-[35mDEBUG   [0m root:helpers_functions.py:34 Getting response body from Bitfinex API

@@ -1,7 +1,0 @@
-2020-02-10 23:59:42,009 module 'helpers_functions' function 'create_endpoint' DEBUG -> Getting full url for sending request to Bitfinex API
-2020-02-10 23:59:42,019 module 'connectionpool' function '_new_conn' DEBUG -> Starting new HTTPS connection (1): api-pub.bitfinex.com:443
-2020-02-10 23:59:42,186 module 'connectionpool' function '_make_request' DEBUG -> https://api-pub.bitfinex.com:443 "GET /v2/ticker/fUSD HTTP/1.1" 200 None
-2020-02-10 23:59:42,199 module 'test_ticker' function 'test_ticker_response' DEBUG -> Request completed in 5.000000000254801e-06ms
-2020-02-10 23:59:42,200 module 'helpers_functions' function 'get_response_headers' DEBUG -> Getting response headers from Bitfinex API
-2020-02-10 23:59:42,201 module 'helpers_functions' function 'get_json_from_asset' DEBUG -> Getting content type from asset
-2020-02-10 23:59:42,201 module 'helpers_functions' function 'get_response_body' DEBUG -> Getting response body from Bitfinex API
