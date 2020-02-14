@@ -18,8 +18,5 @@ def test_tickers_response(symbols):
     assert isinstance(body, list)  # not empty
     assert len(body) != 0
 
-    for i in range(0, len(body)):
-    #for j in range(1, len(body[i])):
-        field_type = (type(body[i]))
-        appLogger.info('Check type' + str(i) + str(field_type))
-        assert field_type == int or field_type == float
+    field_type = check_body_types(body)
+    assert field_type == int or field_type == float

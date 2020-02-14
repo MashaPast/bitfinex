@@ -54,3 +54,8 @@ def write_response_to_a_file(response_data, file_name):
     file.write(response_data.text)
     file.close()
 
+def check_body_types(json_data):
+    for i in range(0, len(json_data)):
+        field_type = (type(json_data[i]))
+        appLogger.info('Check type ' + str(i) + str(field_type))
+        return field_type
