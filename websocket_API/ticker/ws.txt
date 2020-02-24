@@ -1,1 +1,1 @@
-[455331,"hb"]
+{"event":"info","version":2,"serverId":"54821c30-6344-442e-aca5-75d6dea149be","platform":{"status":1}}
