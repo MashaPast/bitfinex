@@ -7,3 +7,16 @@ LIST_OF_ARGVALUES = [("ABSETH"), ("ABSUSD"), ("AGIBTC"), ("AGIETH"), ("AGIUSD"),
 
 URI = "wss://api-pub.bitfinex.com/ws/2"
 
+
+def check_type(message_to_check):
+    list_of_types = []
+    for i in range(0, len(message_to_check)):
+        first_field_type = type(message_to_check[0])
+        list_of_types.append(first_field_type)
+        for j in range(0, len(message_to_check)):
+            for y in range(0, len(message_to_check)):
+                field_type_in_list = (type(message_to_check))
+                list_of_types.append(field_type_in_list)
+    return list_of_types
+
+
