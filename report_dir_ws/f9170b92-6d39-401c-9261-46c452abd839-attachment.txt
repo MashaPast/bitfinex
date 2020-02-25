@@ -1,0 +1,16 @@
+2020-02-25 12:25:55,176 module 'selector_events' function '__init__' DEBUG -> Using selector: EpollSelector
+2020-02-25 12:25:55,176 module 'conftest' function 'connection_fixture' DEBUG -> Start connection
+2020-02-25 12:25:55,207 module 'protocol' function '__init__' DEBUG -> client - state = CONNECTING
+2020-02-25 12:25:55,329 module 'protocol' function 'connection_made' DEBUG -> client - event = connection_made(<asyncio.sslproto._SSLProtocolTransport object at 0x7f7338d5d978>)
+2020-02-25 12:25:55,330 module 'client' function 'write_http_request' DEBUG -> client > GET /ws/2 HTTP/1.1
+2020-02-25 12:25:55,330 module 'client' function 'write_http_request' DEBUG -> client > Headers([('Host', 'api-pub.bitfinex.com'), ('Upgrade', 'websocket'), ('Connection', 'Upgrade'), ('Sec-WebSocket-Key', 'gEQnq04MtKx2a1l7791vzg=='), ('Sec-WebSocket-Version', '13'), ('Sec-WebSocket-Extensions', 'permessage-deflate; client_max_window_bits'), ('User-Agent', 'Python/3.6 websockets/8.1')])
+2020-02-25 12:25:55,413 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<534 bytes>)
+2020-02-25 12:25:55,413 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<5 bytes>)
+2020-02-25 12:25:55,414 module 'client' function 'read_http_response' DEBUG -> client < HTTP/1.1 429 Too Many Requests
+2020-02-25 12:25:55,414 module 'client' function 'read_http_response' DEBUG -> client < Headers([('Date', 'Tue, 25 Feb 2020 10:25:55 GMT'), ('Content-Type', 'application/json'), ('Transfer-Encoding', 'chunked'), ('Connection', 'close'), ('Retry-After', '64'), ('Cache-Control', 'no-cache'), ('Set-Cookie', '__cfduid=d037825de777700e7028cdda7a3f78e2a1582626355; expires=Thu, 26-Mar-20 10:25:55 GMT; path=/; domain=.bitfinex.com; HttpOnly; SameSite=Lax'), ('Expect-CT', 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"'), ('Server', 'cloudflare'), ('CF-RAY', '56a8fa611fa8fe28-HEL')])
+2020-02-25 12:25:55,415 module 'protocol' function 'fail_connection' DEBUG -> client ! failing CONNECTING WebSocket connection with code 1006
+2020-02-25 12:25:55,415 module 'protocol' function 'eof_received' DEBUG -> client - event = eof_received()
+2020-02-25 12:25:55,415 module 'protocol' function 'close_connection' DEBUG -> client x closing TCP connection
+2020-02-25 12:25:55,416 module 'protocol' function 'connection_lost' DEBUG -> client - event = connection_lost(None)
+2020-02-25 12:25:55,416 module 'protocol' function 'connection_lost' DEBUG -> client - state = CLOSED
+2020-02-25 12:25:55,416 module 'protocol' function 'connection_lost' DEBUG -> client x code = 1006, reason = [no reason]

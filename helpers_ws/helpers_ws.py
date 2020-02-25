@@ -10,13 +10,19 @@ URI = "wss://api-pub.bitfinex.com/ws/2"
 
 def check_type(message_to_check):
     list_of_types = []
+    for i in range(1, len(message_to_check)):
+        for list in message_to_check[i]:
+            for number in list:
+                list_of_types.append(number)
+
+    return list_of_types
+
+def check_type_for_ticker(message_to_check):
+    list_of_types = []
     for i in range(0, len(message_to_check)):
         first_field_type = type(message_to_check[0])
         list_of_types.append(first_field_type)
-        for j in range(0, len(message_to_check)):
-            for y in range(0, len(message_to_check)):
-                field_type_in_list = (type(message_to_check))
-                list_of_types.append(field_type_in_list)
+        for el in message_to_check[1]:
+            field_type_in_list = (type(el))
+            list_of_types.append(field_type_in_list)
     return list_of_types
-
-

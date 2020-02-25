@@ -2,7 +2,7 @@ import asyncio
 import websockets
 from logger import appLogger
 import json
-from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type
+from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type_for_ticker
 import pytest
 
 
@@ -30,7 +30,7 @@ async def test_subscribe_to_action(connection_fixture, symbol):
                 print("Heartbeat server message: {}. There is no activity in the channel for 5 seconds".format(server_message))
             else:
                 print("Stream response message: {}".format(server_message))
-                types_list = check_type(server_message)
+                types_list = check_type_for_ticker(server_message)
                 print(types_list)
 
                 assert types_list[0] is int
