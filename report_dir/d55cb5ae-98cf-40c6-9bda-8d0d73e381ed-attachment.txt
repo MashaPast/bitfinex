@@ -1,0 +1,26 @@
+2020-02-26 14:51:38,850 module 'selector_events' function '__init__' DEBUG -> Using selector: EpollSelector
+2020-02-26 14:51:38,851 module 'conftest' function 'connection_fixture' DEBUG -> Start connection
+2020-02-26 14:51:38,870 module 'protocol' function '__init__' DEBUG -> client - state = CONNECTING
+2020-02-26 14:51:38,917 module 'protocol' function 'connection_made' DEBUG -> client - event = connection_made(<asyncio.sslproto._SSLProtocolTransport object at 0x7f002b455fd0>)
+2020-02-26 14:51:38,917 module 'client' function 'write_http_request' DEBUG -> client > GET /ws/2 HTTP/1.1
+2020-02-26 14:51:38,918 module 'client' function 'write_http_request' DEBUG -> client > Headers([('Host', 'api-pub.bitfinex.com'), ('Upgrade', 'websocket'), ('Connection', 'Upgrade'), ('Sec-WebSocket-Key', '4UqSADdrGAEDRNZ+jFzyDw=='), ('Sec-WebSocket-Version', '13'), ('Sec-WebSocket-Extensions', 'permessage-deflate; client_max_window_bits'), ('User-Agent', 'Python/3.6 websockets/8.1')])
+2020-02-26 14:51:39,075 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<758 bytes>)
+2020-02-26 14:51:39,076 module 'client' function 'read_http_response' DEBUG -> client < HTTP/1.1 101 Switching Protocols
+2020-02-26 14:51:39,076 module 'client' function 'read_http_response' DEBUG -> client < Headers([('Date', 'Wed, 26 Feb 2020 12:51:39 GMT'), ('Connection', 'upgrade'), ('Set-Cookie', '__cfduid=dfd3ceebe5c00e4ed7a80385e7ed329ed1582721498; expires=Fri, 27-Mar-20 12:51:38 GMT; path=/; domain=.bitfinex.com; HttpOnly; SameSite=Lax'), ('Upgrade', 'websocket'), ('Sec-WebSocket-Accept', 'JW9T9ZPdfqVAIfQ4S6+F5WMfwwc='), ('X-Frame-Options', 'sameorigin'), ('X-XSS-Protection', '1; mode=block'), ('Referrer-Policy', 'same-origin'), ('X-Download-Options', 'noopen'), ('X-Content-Type-Options', 'nosniff'), ('X-Permitted-Cross-Domain-Policies', 'none'), ('Strict-Transport-Security', 'max-age=31536000; includeSubdomains;'), ('CF-Cache-Status', 'DYNAMIC'), ('Expect-CT', 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"'), ('Server', 'cloudflare'), ('CF-RAY', '56b20d384915cad4-ARN')])
+2020-02-26 14:51:39,076 module 'protocol' function 'connection_open' DEBUG -> client - state = OPEN
+2020-02-26 14:51:39,080 module 'test_ticker_ws' function 'test_subscribe_to_action' DEBUG -> Subscribing to server
+2020-02-26 14:51:39,081 module 'protocol' function 'write_frame' DEBUG -> client > Frame(fin=True, opcode=1, data=b'{ "event": "subscribe", "channel": "ticker", "symbol": "tAMPUSD"}', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,082 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<104 bytes>)
+2020-02-26 14:51:39,082 module 'protocol' function 'read_frame' DEBUG -> client < Frame(fin=True, opcode=1, data=b'{"event":"info","version":2,"serverId":"ba9a8aaf-ab39-4558-8d29-37a1986d621c","platform":{"status":1}}', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,140 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<196 bytes>)
+2020-02-26 14:51:39,141 module 'protocol' function 'read_frame' DEBUG -> client < Frame(fin=True, opcode=1, data=b'{"event":"subscribed","channel":"ticker","chanId":2608,"symbol":"tAMPUSD","pair":"AMPUSD"}', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,141 module 'protocol' function 'read_frame' DEBUG -> client < Frame(fin=True, opcode=1, data=b'[2608,[1.1831,10563.94187015,1.188,6372.44331837,-0.0764,-0.0608,1.1796,638991.37052849,1.256,1.1762]]', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,150 module 'protocol' function 'write_close_frame' DEBUG -> client - state = CLOSING
+2020-02-26 14:51:39,151 module 'protocol' function 'write_frame' DEBUG -> client > Frame(fin=True, opcode=8, data=b'\x03\xe8', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,208 module 'protocol' function 'data_received' DEBUG -> client - event = data_received(<4 bytes>)
+2020-02-26 14:51:39,209 module 'protocol' function 'read_frame' DEBUG -> client < Frame(fin=True, opcode=8, data=b'\x03\xe8', rsv1=False, rsv2=False, rsv3=False)
+2020-02-26 14:51:39,209 module 'protocol' function 'eof_received' DEBUG -> client - event = eof_received()
+2020-02-26 14:51:39,210 module 'protocol' function 'connection_lost' DEBUG -> client - event = connection_lost(None)
+2020-02-26 14:51:39,210 module 'protocol' function 'connection_lost' DEBUG -> client - state = CLOSED
+2020-02-26 14:51:39,211 module 'protocol' function 'connection_lost' DEBUG -> client x code = 1000, reason = [no reason]
+2020-02-26 14:51:39,211 module 'protocol' function 'close_connection' DEBUG -> client x closing TCP connection

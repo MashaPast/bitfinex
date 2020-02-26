@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': '37577c6f-d98e-43e6-9d14-8a2ccd7cd63d', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 2439, 'symbol': 'tALGUSD', 'pair': 'ALGUSD'}
+Stream response message: [2439, [0.3826, 9136.52106527, 0.3991, 13446.39283688, -0.1036, -0.2292, 0.3484, 21618.23646044, 0.452, 0.34684]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

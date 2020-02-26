@@ -5,7 +5,7 @@ import json
 from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type
 import pytest
 
-channel = "trades"
+channel = "book"
 
 
 @pytest.mark.asyncio

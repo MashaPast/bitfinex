@@ -2,18 +2,17 @@ import asyncio
 import websockets
 from logger import appLogger
 import json
-from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type
+from helpers_ws.helpers_ws import LIST_FOR_STATUS, check_type
 import pytest
 
-channel = "trades"
-
+channel = "status"
+pytestmark = pytest.mark.skipif('2 == 2') #for skipping all test module
 
 @pytest.mark.asyncio
-@pytest.mark.parametrize(('symbol'), LIST_OF_ARGVALUES[0:20])
+@pytest.mark.parametrize(('symbol'), LIST_FOR_STATUS[0:20])
 async def test_subscribe_to_action(connection_fixture, symbol):
-
     appLogger.debug('Subscribing to server')
-    await connection_fixture.send('{ "event": "subscribe", "channel": "' + str(channel) + '", "symbol": "t' + str(symbol) + '"}')
+    await connection_fixture.send('{ "event": "subscribe", "channel": "' + str(channel) + '", "key": "deriv:t' + str(symbol) + '"}')
 
     async for message in connection_fixture: #permanently
         server_message = json.loads(message)

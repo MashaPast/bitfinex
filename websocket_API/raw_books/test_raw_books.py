@@ -5,7 +5,7 @@ import json
 from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type
 import pytest
 
-channel = "trades"
+channel = "book"
 
 
 @pytest.mark.asyncio
@@ -13,7 +13,7 @@ channel = "trades"
 async def test_subscribe_to_action(connection_fixture, symbol):
 
     appLogger.debug('Subscribing to server')
-    await connection_fixture.send('{ "event": "subscribe", "channel": "' + str(channel) + '", "symbol": "t' + str(symbol) + '"}')
+    await connection_fixture.send('{ "event": "subscribe", "channel": "' + str(channel) + '", "prec": "R0' + '", "symbol": "t' + str(symbol) + '"}')
 
     async for message in connection_fixture: #permanently
         server_message = json.loads(message)
@@ -36,3 +36,5 @@ async def test_subscribe_to_action(connection_fixture, symbol):
                     assert isinstance(types, float) or isinstance(types, int)
                 break
 
+        with open('ws.txt', "w") as file:
+            file.write(message)

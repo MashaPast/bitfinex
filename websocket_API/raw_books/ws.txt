@@ -1,0 +1,1 @@
+{"event":"subscribed","channel":"book","chanId":561657,"symbol":"tANTUSD","prec":"R0","freq":"F0","len":"25","pair":"ANTUSD"}
