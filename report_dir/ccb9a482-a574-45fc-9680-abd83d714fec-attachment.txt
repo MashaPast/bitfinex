@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': '186d64bc-f34a-4e1c-98b8-9da250870ff0', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 117930, 'symbol': 'tAGIUSD', 'pair': 'AGIUSD'}
+Stream response message: [117930, [0.020517, 186404.10815274, 0.031099, 92307.26058845, -0.001132, -0.0379, 0.02871, 1212.07656719, 0.029842, 0.02871]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

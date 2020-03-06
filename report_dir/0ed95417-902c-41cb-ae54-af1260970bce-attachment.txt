@@ -1,4 +1,0 @@
-Info message 1: {'event': 'info', 'version': 2, 'serverId': 'ff58e3f1-ddff-4669-b5f1-a32849cfb43f', 'platform': {'status': 1}}
-Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 2807, 'symbol': 'tAIOUSD', 'pair': 'AIOUSD'}
-Stream response message: [2807, [0.37, 81759.8427104, 0.44, 9159.54494317, 0.31494, 2.3319, 0.45, 121553.59283611, 0.5, 0.12707]]
-[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

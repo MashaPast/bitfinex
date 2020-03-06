@@ -1,1 +1,1 @@
-{"channel":"tickr","event":"error","msg":"channel: unknown","code":10300}
+{"event":"subscribed","channel":"ticker","chanId":25957,"symbol":"tALGUST","pair":"ALGUST"}

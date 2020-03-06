@@ -1,4 +1,0 @@
-Info message 1: {'event': 'info', 'version': 2, 'serverId': '0b86cc2a-9e2b-4ae2-8682-dff5eb74bd20', 'platform': {'status': 1}}
-Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 3138, 'symbol': 'tALGUST', 'pair': 'ALGUST'}
-Stream response message: [3138, [0.37716, 8909.49250353, 0.38292, 3980.4474868, -0.06121, -0.137, 0.38572, 4986.42913754, 0.44693, 0.38285]]
-[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

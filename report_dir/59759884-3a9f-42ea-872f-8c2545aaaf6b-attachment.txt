@@ -1,4 +1,0 @@
-Info message 1: {'event': 'info', 'version': 2, 'serverId': 'd1d5cb1d-8894-47bb-ad8a-c087f32f9b60', 'platform': {'status': 1}}
-Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 2920, 'symbol': 'tANTUSD', 'pair': 'ANTUSD'}
-Stream response message: [2920, [1.05, 24031.89116689, 1.094, 10992.15636775, -0.1165, -0.0976, 1.0774, 6975.88366662, 1.2289, 1.0473]]
-[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

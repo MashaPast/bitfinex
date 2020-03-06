@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': '3b357829-ddc8-4711-999c-d4819a0d7e52', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 130943, 'symbol': 'tAGIBTC', 'pair': 'AGIBTC'}
+Stream response message: [130943, [2.45e-06, 700228.08213394, 3.85e-06, 259134.92484746, 0, 0, 3.66e-06, 529.81852393, 3.66e-06, 3.66e-06]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

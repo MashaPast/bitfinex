@@ -1,0 +1,26 @@
+[35mDEBUG   [0m asyncio:selector_events.py:54 Using selector: EpollSelector
+[35mDEBUG   [0m root:conftest.py:10 Start connection
+[35mDEBUG   [0m websockets.protocol:protocol.py:244 client - state = CONNECTING
+[35mDEBUG   [0m websockets.protocol:protocol.py:1340 client - event = connection_made(<asyncio.sslproto._SSLProtocolTransport object at 0x7f61601bd828>)
+[35mDEBUG   [0m websockets.client:client.py:79 client > GET /ws/2 HTTP/1.1
+[35mDEBUG   [0m websockets.client:client.py:80 client > Headers([('Host', 'api-pub.bitfinex.com'), ('Upgrade', 'websocket'), ('Connection', 'Upgrade'), ('Sec-WebSocket-Key', 'eDLkZ4FjAzelhwIKnmDqlw=='), ('Sec-WebSocket-Version', '13'), ('Sec-WebSocket-Extensions', 'permessage-deflate; client_max_window_bits'), ('User-Agent', 'Python/3.6 websockets/8.1')])
+[35mDEBUG   [0m websockets.protocol:protocol.py:1412 client - event = data_received(<758 bytes>)
+[35mDEBUG   [0m websockets.client:client.py:105 client < HTTP/1.1 101 Switching Protocols
+[35mDEBUG   [0m websockets.client:client.py:106 client < Headers([('Date', 'Fri, 06 Mar 2020 15:10:12 GMT'), ('Connection', 'upgrade'), ('Set-Cookie', '__cfduid=d768f3686b310f611317b98b6cb98d4a91583507412; expires=Sun, 05-Apr-20 15:10:12 GMT; path=/; domain=.bitfinex.com; HttpOnly; SameSite=Lax'), ('Upgrade', 'websocket'), ('Sec-WebSocket-Accept', 'G4gQznUH+h/PM4GyU+hTS6hb6io='), ('X-Frame-Options', 'sameorigin'), ('X-XSS-Protection', '1; mode=block'), ('Referrer-Policy', 'same-origin'), ('X-Download-Options', 'noopen'), ('X-Content-Type-Options', 'nosniff'), ('X-Permitted-Cross-Domain-Policies', 'none'), ('Strict-Transport-Security', 'max-age=31536000; includeSubdomains;'), ('CF-Cache-Status', 'DYNAMIC'), ('Expect-CT', 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"'), ('Server', 'cloudflare'), ('CF-RAY', '56fd0090eb77fe2c-HEL')])
+[35mDEBUG   [0m websockets.protocol:protocol.py:330 client - state = OPEN
+[35mDEBUG   [0m websockets.protocol:protocol.py:1412 client - event = data_received(<104 bytes>)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1053 client < Frame(fin=True, opcode=1, data=b'{"event":"info","version":2,"serverId":"cf706c9d-f31d-4ed0-be23-ed462ee8c54c","platform":{"status":1}}', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m root:test_trades_ws.py:17 Subscribing to server
+[35mDEBUG   [0m websockets.protocol:protocol.py:1066 client > Frame(fin=True, opcode=1, data=b'{ "event": "subscribe", "channel": "trades", "symbol": "tAGIUSD"}', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1412 client - event = data_received(<1434 bytes>)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1053 client < Frame(fin=True, opcode=1, data=b'{"event":"subscribed","channel":"trades","chanId":389355,"symbol":"tAGIUSD","pair":"AGIUSD"}', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1053 client < Frame(fin=True, opcode=1, data=b'[389355,[[422088891,1583488944015,-275.27520162,0.02871],[422088876,1583488795853,636.80136557,0.029826],[422088372,1583483736247,300,0.029842],[421741578,1583318985864,-370,0.021228],[421741576,1583318937918,380,0.029787],[421453423,1583155485844,-1852.63503443,0.020389],[421453422,1583155485844,-2614.83216557,0.021191],[421143079,1583006447387,1371.918869,0.031299],[421143078,1583006428809,170.24629339,0.0289],[420565506,1582765395920,-700,0.019783],[420565505,1582765395920,-1745,0.02],[420542593,1582763478398,-3255,0.02],[420459449,1582739717387,-24702.41140485,0.019783],[420459448,1582739717387,-300,0.01982],[420423601,1582735840965,-1983.94899723,0.02],[420423600,1582735830799,-1195.09087274,0.02],[420423599,1582735830799,-1983.94899723,0.020135],[420423592,1582735810181,-31820.96013003,0.02],[420423591,1582735810181,-3179.03986997,0.020804],[420390875,1582734928380,-0.454546,0.022],[420390865,1582734853354,-4545,0.022],[420249826,1582711366027,-1239.81735519,0.022],[420249825,1582711365010,-252,0.022],[420249824,1582711364505,-302.47893616,0.022],[420132849,1582682869620,-2499,0.022],[420132848,1582682868505,-2499,0.022],[420132845,1582682862936,-3636.76640704,0.022],[420132844,1582682862936,-1817.23359296,0.022135],[420132551,1582680857912,-953.93730161,0.022],[420132550,1582680857912,-1858.06269839,0.023]]]', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1098 client - state = CLOSING
+[35mDEBUG   [0m websockets.protocol:protocol.py:1066 client > Frame(fin=True, opcode=8, data=b'\x03\xe8', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1412 client - event = data_received(<4 bytes>)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1053 client < Frame(fin=True, opcode=8, data=b'\x03\xe8', rsv1=False, rsv2=False, rsv3=False)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1428 client - event = eof_received()
+[35mDEBUG   [0m websockets.protocol:protocol.py:1354 client - event = connection_lost(None)
+[35mDEBUG   [0m websockets.protocol:protocol.py:1356 client - state = CLOSED
+[35mDEBUG   [0m websockets.protocol:protocol.py:1365 client x code = 1000, reason = [no reason]
+[35mDEBUG   [0m websockets.protocol:protocol.py:1203 client x closing TCP connection

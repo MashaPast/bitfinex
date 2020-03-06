@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': 'cc0580bb-64a7-4f19-9d58-0c9c3dd11d4b', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 118542, 'symbol': 'tAIOETH', 'pair': 'AIOETH'}
+Stream response message: [118542, [0.0005915, 192162.87884343, 0.00068901, 18934.81838305, 0, 0, 0.00068419, 49.05914706, 0.00068419, 0.00068419]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

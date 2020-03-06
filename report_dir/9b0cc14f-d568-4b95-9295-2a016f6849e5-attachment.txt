@@ -1,0 +1,3 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': 'ec0a2535-3d00-46ba-a587-cd02ee0f155b', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'book', 'chanId': 136541, 'symbol': 'tAIDETH', 'prec': 'R0', 'freq': 'F0', 'len': '25', 'pair': 'AIDETH'}
+Stream response message: [136541, []]

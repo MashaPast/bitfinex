@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': 'b5e55ff1-005b-48a8-a816-9101b9e81ebf', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 121417, 'symbol': 'tAMPUST', 'pair': 'AMPUST'}
+Stream response message: [121417, [1.5285, 1801.1859027599999, 1.537, 4855.35399314, 0.0031, 0.002, 1.543, 111715.62710004, 1.549, 1.46]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

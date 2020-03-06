@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': 'f36d1b3c-18b8-4025-a874-f1a139ce224c', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 124805, 'symbol': 'tAGIETH', 'pair': 'AGIETH'}
+Stream response message: [124805, [9.387e-05, 905144.18500222, 0.00031271, 20854.01279002, 0, 0, 0.00010866, 1149.50239195, 0.00010866, 0.00010866]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

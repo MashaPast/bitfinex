@@ -1,1 +1,1 @@
-{"event":"subscribed","channel":"ticker","chanId":2920,"symbol":"tANTUSD","pair":"ANTUSD"}
+{"event":"subscribed","channel":"ticker","chanId":165900,"symbol":"tANTUSD","pair":"ANTUSD"}

@@ -1,4 +1,0 @@
-Info message 1: {'event': 'info', 'version': 2, 'serverId': '3cfb735a-1164-4450-9c74-401f41d07999', 'platform': {'status': 1}}
-Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 2794, 'symbol': 'tALGBTC', 'pair': 'ALGBTC'}
-Stream response message: [2794, [4.07e-05, 423215.39252232003, 4.15e-05, 11750.21282001, -3.3e-06, -0.033, 4.24e-05, 16246.81588033, 4.57e-05, 4.04e-05]]
-[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

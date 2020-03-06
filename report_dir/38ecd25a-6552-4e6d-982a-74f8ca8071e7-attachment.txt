@@ -1,0 +1,4 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': '651112d3-67a8-4c2d-9454-c5084a7b0a40', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 144240, 'symbol': 'tABSUSD', 'pair': 'ABSUSD'}
+Stream response message: [144240, [0.0088013, 165040.67769974, 0.0091949, 173103.31247269, -5.63e-05, -0.0064, 0.0087088, 983.45843834, 0.0087651, 0.0087088]]
+[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]

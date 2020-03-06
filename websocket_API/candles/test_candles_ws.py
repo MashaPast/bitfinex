@@ -4,12 +4,16 @@ from logger import appLogger
 import json
 from helpers_ws.helpers_ws import LIST_OF_ARGVALUES, check_type
 import pytest
+import allure
+
 
 channel = "candles"
 
+TEST_CASE_LINK = "will be added"
 
 @pytest.mark.asyncio
 @pytest.mark.parametrize(('symbol'), LIST_OF_ARGVALUES[0:20])
+@allure.testcase(TEST_CASE_LINK, "Recieving response from channel {} through websocket connection with relevant field types in message body".format(channel))
 async def test_subscribe_to_action(connection_fixture, symbol):
 
     appLogger.debug('Subscribing to server')

@@ -1,0 +1,3 @@
+Info message 1: {'event': 'info', 'version': 2, 'serverId': 'a7a3bdfd-543c-47a9-9f92-1aaa699d8de8', 'platform': {'status': 1}}
+Info message 2: {'event': 'subscribed', 'channel': 'book', 'chanId': 147287, 'symbol': 'tAIDBTC', 'prec': 'R0', 'freq': 'F0', 'len': '25', 'pair': 'AIDBTC'}
+Stream response message: [147287, []]

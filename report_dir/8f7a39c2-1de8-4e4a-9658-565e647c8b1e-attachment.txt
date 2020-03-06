@@ -1,4 +1,0 @@
-Info message 1: {'event': 'info', 'version': 2, 'serverId': '51ccb7fa-1902-4c3f-9dfc-dc24c08a3033', 'platform': {'status': 1}}
-Info message 2: {'event': 'subscribed', 'channel': 'ticker', 'chanId': 3916, 'symbol': 'tAMPBTC', 'pair': 'AMPBTC'}
-Stream response message: [3916, [0.00012698, 5000.44313116, 0.00012786, 1050.88616211, -3.12e-06, -0.0239, 0.00012729, 44043.80657261, 0.00013263, 0.00012721]]
-[<class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'int'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>, <class 'float'>]
